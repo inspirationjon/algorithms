@@ -88,3 +88,19 @@ console.log(calculateGrade(myMarks)); */
 /* ============================================
 The fourth exercise
 ============================================ */
+
+
+let calculatePrimeNumbers = function (limit) {
+  for (let number = 2; number <= limit; number++)
+    if (isPrime(number)) console.log(number);
+}
+
+let isPrime = function (number) {
+  for (let factor = 2; factor < number; factor++)
+    if (number % factor === 0)
+      return false
+
+  return true;
+}
+
+calculatePrimeNumbers(10);
