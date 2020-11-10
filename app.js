@@ -90,7 +90,7 @@ The fourth exercise
 ============================================ */
 
 
-let calculatePrimeNumbers = function (limit) {
+/* let calculatePrimeNumbers = function (limit) {
   for (let number = 2; number <= limit; number++)
     if (isPrime(number)) console.log(number);
 }
@@ -103,4 +103,4 @@ let isPrime = function (number) {
   return true;
 }
 
-calculatePrimeNumbers(10);
+calculatePrimeNumbers(10); */
