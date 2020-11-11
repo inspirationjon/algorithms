@@ -131,3 +131,17 @@ console.log(showTheLongestWord(myString)); */
 /* ============================================
 The sixth exercise
 ============================================ */
+
+/* let myNumbers = [900, 800, 70, 66, 7];
+
+let showTheHighestNumber = function (numbers) {
+  let theHighestNumber = numbers[0];
+
+  for (let i = 1; i < numbers.length; i++)
+    if (theHighestNumber < numbers[i])
+      theHighestNumber = numbers[i];
+
+  return theHighestNumber;
+};
+
+console.log(showTheHighestNumber(myNumbers)); */
