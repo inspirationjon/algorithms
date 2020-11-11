@@ -104,3 +104,30 @@ let isPrime = function (number) {
 }
 
 calculatePrimeNumbers(10); */
+
+
+/* ============================================
+The fifth exercise
+============================================ */
+
+/* let myString = "Sen meni orzuimdagidek emas ekansan!"
+
+
+let showTheLongestWord = function (text) {
+
+  let myArray = text.split(' ');
+  let theLongestWord = myArray[0];
+
+  for (let i = 1; i < myArray.length; i++)
+    if (theLongestWord.length < myArray[i].length)
+      theLongestWord = myArray[i];
+
+  return theLongestWord;
+}
+
+console.log(showTheLongestWord(myString)); */
+
+
+/* ============================================
+The sixth exercise
+============================================ */
