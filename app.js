@@ -148,7 +148,7 @@ console.log(showTheHighestNumber(myNumbers)); */
 
 
 /* ============================================
-The sixth exercise
+The seventh exercise
 ============================================ */
 
 /* var shkaf = [
