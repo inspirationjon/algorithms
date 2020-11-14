@@ -145,3 +145,40 @@ let showTheHighestNumber = function (numbers) {
 };
 
 console.log(showTheHighestNumber(myNumbers)); */
+
+
+/* ============================================
+The sixth exercise
+============================================ */
+
+/* var shkaf = [
+  ['Metro 2033', 'Metro 2034', 'Metro 2035', 'Metro 2033. Ibtido'],
+  ['Shumbola', 'Puankare', 'Sariq devni minib', `Sariq devning o'limi`, `O'tkan kunlar`, 'Besh bolalik yigitcha', 'Dunyoning ishlari', 'Jimjitlik', 'Ikki eshik orasi', 'Peshonasiga televizor yopishib qolgan bola'],
+  ['Sherlok Holms', 'Urush va tinchlik', 'Graf monte kristo', `Yolg'izlikning yuz yili`, `O'gay ona`, 'Farishta va shaytonlar', 'Mumu', 'Iblislar', 'Garri Potter', '1984', 'Molxona'],
+  [`Boy ota, kambag'al ota`, 'The Lean Startup', 'Pul oqimining kvadranti', `O'yla va boy bo'l`, `O'lsang kim yig'laydi`, 'Vavilonlik eng boy odam', 'Zero to one'],
+  [`Beparvolikning nozik san'ati`]
+];
+
+var qidirilmoqda = 'Zero to one';
+var isFound = false;
+
+for (var i = 0; i < shkaf.length; i++) {
+
+  for (var j = 0; j < shkaf[i].length; j++) {
+
+    if (shkaf[i][j].toLowerCase === qidirilmoqda.toLowerCase) {
+      isFound = true;
+      break;
+    }
+
+  }
+  if (isFound) {
+    break;
+  }
+}
+
+if (!isFound) {
+  console.log("no");
+} else {
+  console.log('yes');
+} */
