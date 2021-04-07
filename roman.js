@@ -28,12 +28,10 @@ var romanToInt = function (s) {
 
     for (let i = 0; i < filteredNumbers.length; i++) {
         if (filteredNumbers[i] > filteredNumbers[i + 1]) {
-            result = result + filteredNumbers[i].value
-        } else {
-            result = filteredNumbers[i + 1].value - filteredNumbers[i].value
+            result = result + filteredNumbers[i]
         }
     }
     return result
 }
 
-console.log(romanToInt('IXX'))
+console.log(romanToInt('XX'))
